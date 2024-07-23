@@ -10,10 +10,12 @@
 ### Project: TEMPERATURE CONVERSION ON THREE DIFFERENT SCALES
 
 ## Objective
-The provided code snippet serves as a straightforward temperature converter. It features a command-line interface allowing users to convert temperatures between Celsius, Fahrenheit, and Kelvin. Upon execution, the program prompts the user to select an option (1, 2, or 3) corresponding to their desired conversion. It then employs three conversion functions:
+The provided code snippet serves as a straightforward temperature converter. It features a command-line interface allowing users to convert temperatures between Celsius, Fahrenheit, and Kelvin. Upon execution, the program prompts the user to select an option (1, 2, or 3) corresponding to their desired conversion. It then employs three conversion functions: 
+ 
 celsiusToFahrenheit: Converts Celsius to Fahrenheit using the formula F=9/5*​C+32.    
 fahrenheitToCelsius: Converts Fahrenheit to Celsius using the formula C=5/9*​(F−32).    
-celsiusToKelvin: Converts Celsius to Kelvin by adding 273.15.
+celsiusToKelvin: Converts Celsius to Kelvin by adding 273.15.    
+
 The switch statement handles the user’s choice, performing the appropriate conversion and displaying the result. If an invalid choice is entered, the program prompts the user to select 1, 2, or 3. Overall, it provides a basic utility for temperature conversions. 
 
 ### Technology used: C++ programming language
